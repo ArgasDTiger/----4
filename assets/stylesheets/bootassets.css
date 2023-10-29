@@ -1,0 +1,88 @@
+
+:root {
+    --backgound-color: #8cb8d8;
+    --container-background: #6b97d1;
+    --font-color:  rgb(25, 15, 92);
+    --nav-font-color:  #3c60a9;
+}
+body {
+    background-color: var(--backgound-color);
+    font-family: "Rubik", "Open Sans", Arial;
+}
+
+.nav,
+.container,
+footer {
+    background-color: var(--container-background) !important;
+}
+
+.container {
+    margin-top: 4px;
+    padding: 15px;
+}
+
+
+.container div .btn{
+    background-color: #5f87bc;
+    font-size: 26px;
+    padding: 25px 20px;
+}
+
+.container div .btn:hover {
+    background-color: #517cb4;
+
+}
+
+.btn-secondary {
+    background-color: #5f87bc;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.foot {
+    color: rgb(16, 37, 63);
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.foot:hover {
+    color: rgb(80, 113, 155) !important;
+
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(0, 0, 0);
+}
+
+
+
+.nav-right {
+    justify-content: flex-end !important;
+}
+
+.btn-outline {
+    color: var(--nav-font-color);
+    border-color: var(--nav-font-color);
+}
+
+.btn-outline:hover {
+    color: white;
+    background-color: var(--nav-font-color);
+}
+
+.modal-dialog {
+    background-color: var(--backgound-color) !;
+}
+
+#carouselExampleCaptions img {
+    height: 350px;
+    margin-top: 4px;
+    object-fit: cover;
+}
+
+.dropdown-menu {
+    background-color: #a1bde4;
+}
+
+.dropdown-item:hover {
+    background-color: #8da7cb;
+}
